@@ -13,3 +13,5 @@ powrshell
 por padrão o django utiliza o banco de dados sqlite
 
 > python manage.py runserver
+
+ENTREGANDO EXERCÍCIO PROPOSTO INSERINDO IMAGEM NO PULLREQUEST
