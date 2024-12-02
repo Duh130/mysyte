@@ -18,7 +18,7 @@ class UserFactory(factory.django.DjangoModelFactory):
     @classmethod
     def _prepare(cls, create, **kwargs):
         password = kwargs.pop("password", None)
-        user = super(UserFactory, cls), prepare(create, **kwargs)
+        user = super(UserFactory, cls)._prepare(create, **kwargs)
         if password:
             user.set_password(password)
             if create:
