@@ -1,0 +1,6 @@
+
+git@github.com:Deigio1989/mysite.git
+
+Username : 'adminuser'
+Email address: diegosmtattoo@gmail.com
+Password : 19903Tatu
