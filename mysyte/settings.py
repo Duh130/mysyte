@@ -82,7 +82,7 @@ DATABASES = {
 }
 
 ALLOWED_HOSTS = ['mysyte.vercel.app', 'localhost']
-DEBUG = False  # opcional, mas para produção deve ser False
+DEBUG = True  # opcional, mas para produção deve ser False
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
