@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends "base.html" %}
+{% block content %}
+<div class="container mt-4">
+    <h2>Sobre Mim</h2>
+    <p>Olá! Sou desenvolvedor com foco em <b>back-end com Python/Django</b>. 
+    Estou construindo meu portfólio para demonstrar projetos práticos e estudos 
+    na área de desenvolvimento web.</p>
+
+    <h4>Objetivo</h4>
+    <p>Aplicar programação para resolver problemas reais e evoluir como Full Stack Developer.</p>
+
+    <h4>Projetos</h4>
+    <ul>
+        <li><b>Gerenciador de Tarefas:</b> Aplicação em Django para organização do dia a dia.</li>
+        <li><b>Dashboard Financeiro:</b> Sistema de análise de gastos pessoais com gráficos.</li>
+        <li><b>Este Blog:</b> Um espaço para compartilhar estudos e servir de portfólio.</li>
+    </ul>
+</div>
+{% endblock %}

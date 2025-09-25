@@ -1,6 +1,13 @@
+from django.contrib import admin
 from django.urls import path
-from .views.view import post_hello
+from blog.views import home, about
+
+from django.contrib import admin
+from django.urls import path
+from blog.views import home, about
 
 urlpatterns = [
-    path('hello/', post_hello, name='post_hello'),
+    path('admin/', admin.site.urls),
+    path('', home, name='home'),
+    path('about/', about, name='about'),
 ]
