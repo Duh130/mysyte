@@ -1,16 +1,65 @@
 {% block sidebar %}
 
+<div class="row">
 
 
-<!-- Sidebar Widgets Column -->
-<div class="col-md-4 float-right ">
-    <div class="card my-4">
-        <h5 class="card-header">Quem somos</h5>
-        <div class="card-body">
-            <p class="card-text"> Este blog incrível é feito no topo do nosso Framework full stack favorito 'Django'!</p>
-            <a href="{% url 'about' %}" class="btn btn-danger">Saiba mais!</a>
+    <div class="col-md-8">
+        <!-- Meus Projetos -->
+        <div class="card my-4">
+            <h5 class="card-header">Meus Projetos</h5>
+            <div class="card-body">
+                <ul>
+                    <li><a href="https://vercel.com/duhs-projects" target="_blank">Projetos no Vercel</a></li>
+                    <!-- Adicione mais links de projetos aqui -->
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="card my-4">
+            <h5 class="card-header">LinkedIn & Currículo</h5>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://www.linkedin.com/in/eduardo-silva-devlikendi/" class="btn btn-link" target="_blank">
+                            Meu LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://docs.google.com/document/d/1DSbHFgUFgmS8LNZGc4Iz8jZA-L0MY6Gy8o5V4hSPnKA/edit?tab=t.0" class="btn btn-link" target="_blank">
+                            Meu Currículo
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- GitHub -->
+        <div class="card my-4">
+            <h5 class="card-header">Meu GitHub</h5>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li>
+                        <a href="https://github.com/Duh130" class="btn btn-link" target="_blank">
+                            Meu GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
+
+
+    <div class="col-md-4">
+        <div class="card my-4">
+            <h5 class="card-header">Quem somos</h5>
+            <div class="card-body">
+                <p class="card-text">Este blog incrível é feito no topo do nosso Framework full stack favorito 'Django'!</p>
+                <a href="{% url 'about' %}" class="btn btn-danger">Saiba mais!</a>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 {% endblock sidebar %}
