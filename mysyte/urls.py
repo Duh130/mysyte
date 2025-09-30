@@ -19,7 +19,7 @@ from django.urls import path
 
 from django.contrib import admin
 from django.urls import path
-from blog.views import home, post_hello
+from blog.views import home,post_hello
 
 urlpatterns = [
     path("admin/", admin.site.urls),
