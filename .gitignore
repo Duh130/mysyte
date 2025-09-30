@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Django
+*.sqlite3
+*.log
+db.sqlite3
+
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos de testes
+teste.txt
+teste_arquivo.py
+
+# Vercel
+.vercel/
