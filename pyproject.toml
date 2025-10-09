@@ -1,0 +1,17 @@
+[project]
+name = "mysite"
+version = "1.0.0"
+description = "Blog pessoal desenvolvido com Django"
+authors = [
+    { name = "Eduardo Gonçalves Geronimo" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+dependencies = [
+    "django>=5.0,<6.0",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
